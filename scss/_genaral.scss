@@ -1,0 +1,48 @@
+html{
+    height: 100%;
+    box-sizing: border-box;
+}
+
+*,
+::before,
+::after {
+    box-sizing: inherit;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: "Manrope", sans-serif;
+    margin: 0 ;
+    padding: 0;
+    background-color: #1C1C1E;
+    position: relative;
+    z-index: 1;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+h1,h2,h3,h4,h5,p{
+    margin: 0;
+}
+
+ul,ol,li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+.line{
+    display: block;
+    width: 1px;
+    height: 1060px;
+    background-color: white;
+    position: absolute;
+    bottom: -14px;
+    right: 643px;
+    z-index: 2;
+}

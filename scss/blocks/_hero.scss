@@ -1,0 +1,224 @@
+
+main{
+    margin-top: 50px;
+}
+
+
+.hero__left{
+    display: flex;
+}
+
+
+.hero__wrapper{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 711px;
+    flex-wrap: wrap
+    
+}
+
+.hero__label-first{
+    display: inline-block;
+    color: #FFFFFF;
+    width: 100%;
+    max-width: 393px;
+    font-size: 16px;   
+    font-weight: 600;
+    line-height: 23px;
+    margin-right: 27px;
+}
+
+.hero__input-first{
+    width: 100%;
+    max-width: 393px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    padding:14px 0 14px 25px;
+    margin-bottom: 20px;
+    background: #FFFFFF1A;
+    border-radius:25px;
+    background-color: #FFFFFF1A;
+    border: none;
+}
+
+.hero__label-second{
+    width: 100%;
+    max-width: 288px;
+    display: inline-block;
+    color: #FFFFFF;
+    font-size: 16px;   
+    font-weight: 600;
+    line-height: 23px;
+    
+}
+
+.hero__input-second{
+    width: 100%;
+    max-width: 288px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    padding:14px 0 14px 25px;
+    margin-bottom: 20px;
+    background: #FFFFFF1A;
+    border-radius:25px;
+    background-color: #FFFFFF1A;
+    border: none;
+}
+
+
+.hero__label-third{
+    width: 100%;
+    max-width: 338px;
+    display: inline-block;
+    color: #FFFFFF;
+    font-size: 16px;   
+    font-weight: 600;
+    line-height: 23px;
+    margin-right: 35px;
+    
+}
+
+.hero__input-third{
+    width: 100%;
+    max-width: 338px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    
+    padding:14px 0 14px 25px;
+    margin-bottom: 20px;
+    background: #FFFFFF1A;
+    border-radius:25px;
+    background-color: #FFFFFF1A;
+    border: none;
+}
+
+.hero__label-fourth{
+    display: inline-block;
+    color: #FFFFFF;
+    font-size: 16px;   
+    font-weight: 600;
+    line-height: 23px;
+    
+}
+
+.hero__input-fourth{
+    width: 100%;
+    max-width: 338px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    padding:14px 0 14px 25px;
+    margin-bottom: 20px;
+    background: #FFFFFF1A;
+    border-radius:25px;
+    background-color: #FFFFFF1A;
+    border: none;
+}
+
+.hero__content{
+    margin-right: 30px;
+    width: 100%;
+    max-width: 287px;
+}
+
+.hero__label-fifth{
+    color: #FFFFFF;
+    font-size: 16px;   
+    font-weight: 600;
+    line-height: 23px;
+    
+}
+
+.hero__select{
+    
+    width: 100%;
+    max-width: 287px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    padding:14px 0 14px 25px;
+    margin-bottom: 20px;
+    background: #FFFFFF1A;
+    border-radius:25px;
+    background-color: #FFFFFF1A;
+    border: none;
+}
+
+
+.hero__message{
+    display: block;
+    color: #FFFFFF;
+    font-size: 16px;   
+    font-weight: 600;
+    line-height: 23px;
+    margin-bottom: 10px;
+}
+
+.hero__area{
+    width: 100%;
+    max-width: 711px;
+    background: #FFFFFF1A;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    padding: 10px 15px 10px 20px;
+    color: #FFFFFF;
+}
+
+.hero__btn{ 
+    background-color:#0040DD;
+    font-size: 16px;  
+    font-weight: 600;
+    line-height: 22px;
+    padding: 10px 42px 10px 15px;
+    border-radius: 50px;
+    margin-bottom: 235px;
+    border: none;
+    position: relative;
+}
+
+.hero__btn::after{
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: 2;
+    top: 12px;
+    right: 11px;
+    width: 18px;
+    height: 18px;
+    background-image: url(../../img/Vector.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+.hero__right{
+    width: 100%;
+    max-width: 440px;
+    margin-left: 60px;
+}
+
+.hero__right-title{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+
+.hero__right-text{ 
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    color: #FFFFFF;
+    opacity: 60%
+}
+
